@@ -33,7 +33,7 @@ public class Cart {
         return new ArrayList<>(products);
     }
 
-    public void Clear(){
+    public void clear(){
         products.clear();
     }
 

@@ -1,6 +1,5 @@
 package org.example;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
@@ -70,7 +69,7 @@ public class Main {
                         System.out.println("Замовлення оформлено!");
                         System.out.println(order);
                         story.addOrder(order);
-                        cart.Clear();
+                        cart.clear();
                     }
                     break;
                 case 5:
